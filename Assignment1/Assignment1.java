@@ -4,45 +4,45 @@ import java.util.Scanner;
 public class Assignment1 {
     public static void main(String[] args){
         try (Scanner scanner = new Scanner(System.in)) {
-            // System.out.println("--- Task 1 ---");
-            // int a = scanner.nextInt();
-            // PrintDigit(a);
-            // System.out.println("--- Task 2 ---");
-            // int b = scanner.nextInt();
-            // List<Integer> list1 = new ArrayList<>();
-            // for(int i = 0; i < b; i++){
-            //     int dummy = scanner.nextInt();
-            //     list1.add(dummy);
-            // }
-            // int totalsum = AverageOfElements(list1, 0);
-            // double task2Avg = (double) totalsum / b;
-            // System.out.println(task2Avg);
-            // System.out.println("--- Task 3 ---");
-            // int c = scanner.nextInt();
-            // if (c < 2) {
-            //     System.out.println("Composite");
-            // } else {
-            //     System.out.println(PrimeNumberCheck(c, 2));
-            // }
-            // System.out.println("--- Task 4 ---");
-            // int d = scanner.nextInt();
-            // System.out.println(Factorial(d));
-            // System.out.println("--- Task 5 ---");
-            // int e = scanner.nextInt();
-            // System.out.println(FibonacciNumber(e));
-            // System.out.println("--- Task 6 ---");
-            // int f = scanner.nextInt();
-            // int g = scanner.nextInt();
-            // System.out.println(PowerOf(f, g));
-            // System.out.println("--- Task 7 ---");
-            // int h = scanner.nextInt();
-            // List<Integer> list2 = new ArrayList<>();
-            // for(int i = 0; i < h; i++){
-            //     int some = scanner.nextInt();
-            //     list2.add(some);
-            // }
-            // int index2 = list2.size() - 1;
-            // ReverseOutput(index2, list2);
+            System.out.println("--- Task 1 ---");
+            int a = scanner.nextInt();
+            PrintDigit(a);
+            System.out.println("--- Task 2 ---");
+            int b = scanner.nextInt();
+            List<Integer> list1 = new ArrayList<>();
+            for(int i = 0; i < b; i++){
+                int dummy = scanner.nextInt();
+                list1.add(dummy);
+            }
+            int totalsum = AverageOfElements(list1, 0);
+            double task2Avg = (double) totalsum / b;
+            System.out.println(task2Avg);
+            System.out.println("--- Task 3 ---");
+            int c = scanner.nextInt();
+            if (c < 2) {
+                System.out.println("Composite");
+            } else {
+                System.out.println(PrimeNumberCheck(c, 2));
+            }
+            System.out.println("--- Task 4 ---");
+            int d = scanner.nextInt();
+            System.out.println(Factorial(d));
+            System.out.println("--- Task 5 ---");
+            int e = scanner.nextInt();
+            System.out.println(FibonacciNumber(e));
+            System.out.println("--- Task 6 ---");
+            int f = scanner.nextInt();
+            int g = scanner.nextInt();
+            System.out.println(PowerOf(f, g));
+            System.out.println("--- Task 7 ---");
+            int h = scanner.nextInt();
+            List<Integer> list2 = new ArrayList<>();
+            for(int i = 0; i < h; i++){
+                int some = scanner.nextInt();
+                list2.add(some);
+            }
+            int index2 = list2.size() - 1;
+            ReverseOutput(index2, list2);
             System.out.println("--- Task 8 ---");
             String line1 = scanner.nextLine();
             if(CheckDigits(line1, 0)){
